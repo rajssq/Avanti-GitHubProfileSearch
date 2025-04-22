@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+* {
+    font-family: "Nunito Sans", sans-serif;
+}
+
+body {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #1f1f1f;
+    box-sizing: border-box;
+}
+
+@theme {
+    --animate-wiggle: wiggle 5s ease-in infinite;
+    @keyframes wiggle {
+        0%,
+        100% {
+            transform: rotate(-4deg) translate(-50px, 10px);
+            opacity: 100;
+        }
+        50% {
+            transform: rotate(4deg) translate(0, 30px);
+            opacity: 50%;
+        }
+        25% {
+            transform: translate(-60px, 30px);
+            opacity: 25%;
+        }
+    }
+}
+
+@theme {
+    --animate-opacity: opacity 5s ease-in infinite;
+    @keyframes opacity {
+        0%,
+        100% {
+            opacity: 100;
+        }
+        50% {
+            opacity: 50%;
+        }
+        25% {
+            opacity: 25%;
+        }
+    }
+}
