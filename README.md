@@ -2,6 +2,8 @@
 
 Este projeto foi desenvolvido como parte de um desafio técnico com o objetivo de criar uma aplicação em **React** que busca e exibe informações de usuários do GitHub, seguindo o layout proposto no Figma.
 
+💻Acesse o projeto [Aqui](https://avanti-git-hub-profile-search.vercel.app/)
+
 ![DEMO](./src/assets/images/demo-GitHubProfileSearch.gif)
 
 ## 📝 Objetivo
@@ -34,6 +36,7 @@ Acesse o layout clicando no link abaixo:
 - React.js
 - Tailwind CSS
 - GitHub REST API
+- Vercel (Deploy)
 
 ## 🚦 Como Executar o Projeto
 
